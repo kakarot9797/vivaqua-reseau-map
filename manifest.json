@@ -1,0 +1,53 @@
+{
+  "name": "Vivaqua — Réseau en direct",
+  "short_name": "Vivaqua",
+  "description": "Suivez les pannes, chantiers et coupures sur les 23 communes desservies par Vivaqua en temps réel.",
+  "start_url": "./vivaqua_v14.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#1D9E75",
+  "background_color": "#0a1a12",
+  "lang": "fr",
+  "categories": ["utilities", "lifestyle"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='32' fill='%231D9E75'/><path d='M96 32C73.9 32 56 53.8 56 80c0 33 40 80 40 80s40-47 40-80c0-26.2-17.9-48-40-48zm0 65.5c-9.7 0-17.5-7.8-17.5-17.5S86.3 62.5 96 62.5 113.5 70.3 113.5 80 105.7 97.5 96 97.5z' fill='white'/>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='80' fill='%231D9E75'/><path d='M256 80C210 80 172 131 172 190c0 87 84 213 84 213s84-126 84-213c0-59-38-110-84-110zm0 173c-25.4 0-46-20.6-46-46s20.6-46 46-46 46 20.6 46 46-20.6 46-46 46z' fill='white'/>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "label": "Dashboard carte en direct",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Voir la carte",
+      "short_name": "Carte",
+      "description": "Ouvrir la carte des incidents en direct",
+      "url": "./vivaqua_v14.html#map",
+      "icons": [{"src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%231D9E75'><path d='M9 3L3 6.5v15l6-3.5 6 3.5 6-3.5V2L15 5.5 9 3zm6 13.5l-6-3.5V6.5l6 3.5v6.5z'/></svg>", "sizes": "96x96"}]
+    },
+    {
+      "name": "Quiz du jour",
+      "short_name": "Quiz",
+      "description": "Faire le défi du jour",
+      "url": "./vivaqua_v14.html#quiz",
+      "icons": [{"src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%231D9E75'><path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z'/></svg>", "sizes": "96x96"}]
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": []
+}
